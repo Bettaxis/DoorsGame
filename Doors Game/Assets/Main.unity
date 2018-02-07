@@ -264,7 +264,7 @@ GameObject:
   - component: {fileID: 74886404}
   m_Layer: 5
   m_Name: Door18
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -325,7 +325,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 74886402}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 74886404}
+        m_MethodName: isDoorSafe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &74886402
@@ -369,16 +380,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 74886399}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9046d41442cd5fe4488cda03794b745a, type: 3}
+  m_Script: {fileID: 11500000, guid: 014479f16445e4c49bf691329ba2c35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textUI: {fileID: 0}
   safe: {fileID: 21300000, guid: 2ed1ac259dc301e42be7dd0f0bb9c403, type: 3}
   dead: {fileID: 21300000, guid: 8e401bf65bd09f04687d8d1deaa6c740, type: 3}
   hot: {fileID: 21300000, guid: 0c2dc89931c4b784d9f1b9324b625957, type: 3}
   noisy: {fileID: 21300000, guid: f4bc245c31ce5b24db4c01c4a1555b58, type: 3}
   hotnoisy: {fileID: 21300000, guid: f276d4992b4f6ac459095a01a29295ba, type: 3}
   nothot_notnoisy: {fileID: 21300000, guid: 35c6c908fd4e5f6419153876c810d0de, type: 3}
+  ScriptObject: {fileID: 0}
 --- !u!1 &79445151
 GameObject:
   m_ObjectHideFlags: 0
@@ -393,7 +404,7 @@ GameObject:
   - component: {fileID: 79445156}
   m_Layer: 5
   m_Name: Door14
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -454,7 +465,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 79445154}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 79445156}
+        m_MethodName: isDoorSafe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &79445154
@@ -498,16 +520,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 79445151}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9046d41442cd5fe4488cda03794b745a, type: 3}
+  m_Script: {fileID: 11500000, guid: 014479f16445e4c49bf691329ba2c35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textUI: {fileID: 0}
   safe: {fileID: 21300000, guid: 2ed1ac259dc301e42be7dd0f0bb9c403, type: 3}
   dead: {fileID: 21300000, guid: 8e401bf65bd09f04687d8d1deaa6c740, type: 3}
   hot: {fileID: 21300000, guid: 0c2dc89931c4b784d9f1b9324b625957, type: 3}
   noisy: {fileID: 21300000, guid: f4bc245c31ce5b24db4c01c4a1555b58, type: 3}
   hotnoisy: {fileID: 21300000, guid: f276d4992b4f6ac459095a01a29295ba, type: 3}
   nothot_notnoisy: {fileID: 21300000, guid: 35c6c908fd4e5f6419153876c810d0de, type: 3}
+  ScriptObject: {fileID: 0}
 --- !u!1 &100424404
 GameObject:
   m_ObjectHideFlags: 0
@@ -596,7 +618,7 @@ GameObject:
   - component: {fileID: 220017695}
   m_Layer: 5
   m_Name: Door11
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -657,7 +679,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 220017693}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 220017695}
+        m_MethodName: isDoorSafe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &220017693
@@ -701,16 +734,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 220017690}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9046d41442cd5fe4488cda03794b745a, type: 3}
+  m_Script: {fileID: 11500000, guid: 014479f16445e4c49bf691329ba2c35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textUI: {fileID: 0}
   safe: {fileID: 21300000, guid: 2ed1ac259dc301e42be7dd0f0bb9c403, type: 3}
   dead: {fileID: 21300000, guid: 8e401bf65bd09f04687d8d1deaa6c740, type: 3}
   hot: {fileID: 21300000, guid: 0c2dc89931c4b784d9f1b9324b625957, type: 3}
   noisy: {fileID: 21300000, guid: f4bc245c31ce5b24db4c01c4a1555b58, type: 3}
   hotnoisy: {fileID: 21300000, guid: f276d4992b4f6ac459095a01a29295ba, type: 3}
   nothot_notnoisy: {fileID: 21300000, guid: 35c6c908fd4e5f6419153876c810d0de, type: 3}
+  ScriptObject: {fileID: 0}
 --- !u!1 &340081481
 GameObject:
   m_ObjectHideFlags: 0
@@ -1003,7 +1036,7 @@ GameObject:
   - component: {fileID: 648902299}
   m_Layer: 5
   m_Name: Door6
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1065,9 +1098,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: calculateProbabilities
-        m_Mode: 3
+      - m_Target: {fileID: 648902299}
+        m_MethodName: isDoorSafe
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -1119,16 +1152,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 648902294}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9046d41442cd5fe4488cda03794b745a, type: 3}
+  m_Script: {fileID: 11500000, guid: 014479f16445e4c49bf691329ba2c35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textUI: {fileID: 0}
   safe: {fileID: 21300000, guid: 2ed1ac259dc301e42be7dd0f0bb9c403, type: 3}
   dead: {fileID: 21300000, guid: 8e401bf65bd09f04687d8d1deaa6c740, type: 3}
   hot: {fileID: 21300000, guid: 0c2dc89931c4b784d9f1b9324b625957, type: 3}
   noisy: {fileID: 21300000, guid: f4bc245c31ce5b24db4c01c4a1555b58, type: 3}
   hotnoisy: {fileID: 21300000, guid: f276d4992b4f6ac459095a01a29295ba, type: 3}
   nothot_notnoisy: {fileID: 21300000, guid: 35c6c908fd4e5f6419153876c810d0de, type: 3}
+  ScriptObject: {fileID: 0}
 --- !u!1 &664386252
 GameObject:
   m_ObjectHideFlags: 0
@@ -1211,10 +1244,11 @@ GameObject:
   - component: {fileID: 681274088}
   - component: {fileID: 681274087}
   - component: {fileID: 681274086}
+  - component: {fileID: 681274090}
   - component: {fileID: 681274089}
   m_Layer: 5
   m_Name: Door9
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1275,7 +1309,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 681274087}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 681274090}
+        m_MethodName: isDoorSafe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &681274087
@@ -1319,16 +1364,34 @@ MonoBehaviour:
   m_GameObject: {fileID: 681274084}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9046d41442cd5fe4488cda03794b745a, type: 3}
+  m_Script: {fileID: 11500000, guid: 014479f16445e4c49bf691329ba2c35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textUI: {fileID: 0}
   safe: {fileID: 21300000, guid: 2ed1ac259dc301e42be7dd0f0bb9c403, type: 3}
   dead: {fileID: 21300000, guid: 8e401bf65bd09f04687d8d1deaa6c740, type: 3}
   hot: {fileID: 21300000, guid: 0c2dc89931c4b784d9f1b9324b625957, type: 3}
   noisy: {fileID: 21300000, guid: f4bc245c31ce5b24db4c01c4a1555b58, type: 3}
   hotnoisy: {fileID: 21300000, guid: f276d4992b4f6ac459095a01a29295ba, type: 3}
   nothot_notnoisy: {fileID: 21300000, guid: 35c6c908fd4e5f6419153876c810d0de, type: 3}
+  ScriptObject: {fileID: 0}
+--- !u!114 &681274090
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 681274084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 014479f16445e4c49bf691329ba2c35a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  safe: {fileID: 21300000, guid: 2ed1ac259dc301e42be7dd0f0bb9c403, type: 3}
+  dead: {fileID: 21300000, guid: 8e401bf65bd09f04687d8d1deaa6c740, type: 3}
+  hot: {fileID: 21300000, guid: 0c2dc89931c4b784d9f1b9324b625957, type: 3}
+  noisy: {fileID: 21300000, guid: f4bc245c31ce5b24db4c01c4a1555b58, type: 3}
+  hotnoisy: {fileID: 21300000, guid: f276d4992b4f6ac459095a01a29295ba, type: 3}
+  nothot_notnoisy: {fileID: 21300000, guid: 35c6c908fd4e5f6419153876c810d0de, type: 3}
+  ScriptObject: {fileID: 0}
 --- !u!1 &683055387
 GameObject:
   m_ObjectHideFlags: 0
@@ -1559,7 +1622,7 @@ GameObject:
   - component: {fileID: 804677053}
   m_Layer: 5
   m_Name: Door8
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1620,7 +1683,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 804677051}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 804677053}
+        m_MethodName: isDoorSafe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &804677051
@@ -1664,16 +1738,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 804677048}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9046d41442cd5fe4488cda03794b745a, type: 3}
+  m_Script: {fileID: 11500000, guid: 014479f16445e4c49bf691329ba2c35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textUI: {fileID: 0}
   safe: {fileID: 21300000, guid: 2ed1ac259dc301e42be7dd0f0bb9c403, type: 3}
   dead: {fileID: 21300000, guid: 8e401bf65bd09f04687d8d1deaa6c740, type: 3}
   hot: {fileID: 21300000, guid: 0c2dc89931c4b784d9f1b9324b625957, type: 3}
   noisy: {fileID: 21300000, guid: f4bc245c31ce5b24db4c01c4a1555b58, type: 3}
   hotnoisy: {fileID: 21300000, guid: f276d4992b4f6ac459095a01a29295ba, type: 3}
   nothot_notnoisy: {fileID: 21300000, guid: 35c6c908fd4e5f6419153876c810d0de, type: 3}
+  ScriptObject: {fileID: 0}
 --- !u!1 &823210151
 GameObject:
   m_ObjectHideFlags: 0
@@ -1881,7 +1955,7 @@ GameObject:
   - component: {fileID: 877391972}
   m_Layer: 5
   m_Name: Door19
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1942,7 +2016,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 877391970}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 877391972}
+        m_MethodName: isDoorSafe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &877391970
@@ -1986,16 +2071,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 877391967}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9046d41442cd5fe4488cda03794b745a, type: 3}
+  m_Script: {fileID: 11500000, guid: 014479f16445e4c49bf691329ba2c35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textUI: {fileID: 0}
   safe: {fileID: 21300000, guid: 2ed1ac259dc301e42be7dd0f0bb9c403, type: 3}
   dead: {fileID: 21300000, guid: 8e401bf65bd09f04687d8d1deaa6c740, type: 3}
   hot: {fileID: 21300000, guid: 0c2dc89931c4b784d9f1b9324b625957, type: 3}
   noisy: {fileID: 21300000, guid: f4bc245c31ce5b24db4c01c4a1555b58, type: 3}
   hotnoisy: {fileID: 21300000, guid: f276d4992b4f6ac459095a01a29295ba, type: 3}
   nothot_notnoisy: {fileID: 21300000, guid: 35c6c908fd4e5f6419153876c810d0de, type: 3}
+  ScriptObject: {fileID: 0}
 --- !u!1 &891056023
 GameObject:
   m_ObjectHideFlags: 0
@@ -2010,7 +2095,7 @@ GameObject:
   - component: {fileID: 891056028}
   m_Layer: 5
   m_Name: Door15
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2071,7 +2156,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 891056026}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 891056028}
+        m_MethodName: isDoorSafe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &891056026
@@ -2115,16 +2211,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 891056023}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9046d41442cd5fe4488cda03794b745a, type: 3}
+  m_Script: {fileID: 11500000, guid: 014479f16445e4c49bf691329ba2c35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textUI: {fileID: 0}
   safe: {fileID: 21300000, guid: 2ed1ac259dc301e42be7dd0f0bb9c403, type: 3}
   dead: {fileID: 21300000, guid: 8e401bf65bd09f04687d8d1deaa6c740, type: 3}
   hot: {fileID: 21300000, guid: 0c2dc89931c4b784d9f1b9324b625957, type: 3}
   noisy: {fileID: 21300000, guid: f4bc245c31ce5b24db4c01c4a1555b58, type: 3}
   hotnoisy: {fileID: 21300000, guid: f276d4992b4f6ac459095a01a29295ba, type: 3}
   nothot_notnoisy: {fileID: 21300000, guid: 35c6c908fd4e5f6419153876c810d0de, type: 3}
+  ScriptObject: {fileID: 0}
 --- !u!1 &919687689
 GameObject:
   m_ObjectHideFlags: 0
@@ -2139,7 +2235,7 @@ GameObject:
   - component: {fileID: 919687694}
   m_Layer: 5
   m_Name: Door2
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2201,9 +2297,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: calculateProbabilities
-        m_Mode: 3
+      - m_Target: {fileID: 919687694}
+        m_MethodName: isDoorSafe
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2255,16 +2351,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 919687689}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9046d41442cd5fe4488cda03794b745a, type: 3}
+  m_Script: {fileID: 11500000, guid: 014479f16445e4c49bf691329ba2c35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textUI: {fileID: 0}
   safe: {fileID: 21300000, guid: 2ed1ac259dc301e42be7dd0f0bb9c403, type: 3}
   dead: {fileID: 21300000, guid: 8e401bf65bd09f04687d8d1deaa6c740, type: 3}
   hot: {fileID: 21300000, guid: 0c2dc89931c4b784d9f1b9324b625957, type: 3}
   noisy: {fileID: 21300000, guid: f4bc245c31ce5b24db4c01c4a1555b58, type: 3}
   hotnoisy: {fileID: 21300000, guid: f276d4992b4f6ac459095a01a29295ba, type: 3}
   nothot_notnoisy: {fileID: 21300000, guid: 35c6c908fd4e5f6419153876c810d0de, type: 3}
+  ScriptObject: {fileID: 0}
 --- !u!1 &989511883
 GameObject:
   m_ObjectHideFlags: 0
@@ -2696,7 +2792,7 @@ GameObject:
   - component: {fileID: 1238728791}
   m_Layer: 5
   m_Name: Door4
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2758,9 +2854,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: calculateProbabilities
-        m_Mode: 3
+      - m_Target: {fileID: 1238728791}
+        m_MethodName: isDoorSafe
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -2812,16 +2908,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1238728786}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9046d41442cd5fe4488cda03794b745a, type: 3}
+  m_Script: {fileID: 11500000, guid: 014479f16445e4c49bf691329ba2c35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textUI: {fileID: 0}
   safe: {fileID: 21300000, guid: 2ed1ac259dc301e42be7dd0f0bb9c403, type: 3}
   dead: {fileID: 21300000, guid: 8e401bf65bd09f04687d8d1deaa6c740, type: 3}
   hot: {fileID: 21300000, guid: 0c2dc89931c4b784d9f1b9324b625957, type: 3}
   noisy: {fileID: 21300000, guid: f4bc245c31ce5b24db4c01c4a1555b58, type: 3}
   hotnoisy: {fileID: 21300000, guid: f276d4992b4f6ac459095a01a29295ba, type: 3}
   nothot_notnoisy: {fileID: 21300000, guid: 35c6c908fd4e5f6419153876c810d0de, type: 3}
+  ScriptObject: {fileID: 0}
 --- !u!1 &1245959543
 GameObject:
   m_ObjectHideFlags: 0
@@ -2907,7 +3003,7 @@ GameObject:
   - component: {fileID: 1269770685}
   m_Layer: 5
   m_Name: Door7
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2969,9 +3065,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: calculateProbabilities
-        m_Mode: 3
+      - m_Target: {fileID: 1269770685}
+        m_MethodName: isDoorSafe
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3023,16 +3119,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1269770680}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9046d41442cd5fe4488cda03794b745a, type: 3}
+  m_Script: {fileID: 11500000, guid: 014479f16445e4c49bf691329ba2c35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textUI: {fileID: 0}
   safe: {fileID: 21300000, guid: 2ed1ac259dc301e42be7dd0f0bb9c403, type: 3}
   dead: {fileID: 21300000, guid: 8e401bf65bd09f04687d8d1deaa6c740, type: 3}
   hot: {fileID: 21300000, guid: 0c2dc89931c4b784d9f1b9324b625957, type: 3}
   noisy: {fileID: 21300000, guid: f4bc245c31ce5b24db4c01c4a1555b58, type: 3}
   hotnoisy: {fileID: 21300000, guid: f276d4992b4f6ac459095a01a29295ba, type: 3}
   nothot_notnoisy: {fileID: 21300000, guid: 35c6c908fd4e5f6419153876c810d0de, type: 3}
+  ScriptObject: {fileID: 0}
 --- !u!1 &1311274996
 GameObject:
   m_ObjectHideFlags: 0
@@ -3047,7 +3143,7 @@ GameObject:
   - component: {fileID: 1311275001}
   m_Layer: 5
   m_Name: Door20
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3108,7 +3204,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1311274999}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1311275001}
+        m_MethodName: isDoorSafe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1311274999
@@ -3152,16 +3259,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1311274996}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9046d41442cd5fe4488cda03794b745a, type: 3}
+  m_Script: {fileID: 11500000, guid: 014479f16445e4c49bf691329ba2c35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textUI: {fileID: 0}
   safe: {fileID: 21300000, guid: 2ed1ac259dc301e42be7dd0f0bb9c403, type: 3}
   dead: {fileID: 21300000, guid: 8e401bf65bd09f04687d8d1deaa6c740, type: 3}
   hot: {fileID: 21300000, guid: 0c2dc89931c4b784d9f1b9324b625957, type: 3}
   noisy: {fileID: 21300000, guid: f4bc245c31ce5b24db4c01c4a1555b58, type: 3}
   hotnoisy: {fileID: 21300000, guid: f276d4992b4f6ac459095a01a29295ba, type: 3}
   nothot_notnoisy: {fileID: 21300000, guid: 35c6c908fd4e5f6419153876c810d0de, type: 3}
+  ScriptObject: {fileID: 0}
 --- !u!1 &1332268637
 GameObject:
   m_ObjectHideFlags: 0
@@ -3336,7 +3443,7 @@ GameObject:
   - component: {fileID: 1394933573}
   m_Layer: 5
   m_Name: Door17
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3397,7 +3504,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1394933571}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1394933573}
+        m_MethodName: isDoorSafe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1394933571
@@ -3441,16 +3559,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1394933568}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9046d41442cd5fe4488cda03794b745a, type: 3}
+  m_Script: {fileID: 11500000, guid: 014479f16445e4c49bf691329ba2c35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textUI: {fileID: 0}
   safe: {fileID: 21300000, guid: 2ed1ac259dc301e42be7dd0f0bb9c403, type: 3}
   dead: {fileID: 21300000, guid: 8e401bf65bd09f04687d8d1deaa6c740, type: 3}
   hot: {fileID: 21300000, guid: 0c2dc89931c4b784d9f1b9324b625957, type: 3}
   noisy: {fileID: 21300000, guid: f4bc245c31ce5b24db4c01c4a1555b58, type: 3}
   hotnoisy: {fileID: 21300000, guid: f276d4992b4f6ac459095a01a29295ba, type: 3}
   nothot_notnoisy: {fileID: 21300000, guid: 35c6c908fd4e5f6419153876c810d0de, type: 3}
+  ScriptObject: {fileID: 0}
 --- !u!1 &1427301613
 GameObject:
   m_ObjectHideFlags: 0
@@ -3465,7 +3583,7 @@ GameObject:
   - component: {fileID: 1427301618}
   m_Layer: 5
   m_Name: Door5
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3527,9 +3645,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: calculateProbabilities
-        m_Mode: 3
+      - m_Target: {fileID: 1427301618}
+        m_MethodName: isDoorSafe
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -3581,16 +3699,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1427301613}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9046d41442cd5fe4488cda03794b745a, type: 3}
+  m_Script: {fileID: 11500000, guid: 014479f16445e4c49bf691329ba2c35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textUI: {fileID: 0}
   safe: {fileID: 21300000, guid: 2ed1ac259dc301e42be7dd0f0bb9c403, type: 3}
   dead: {fileID: 21300000, guid: 8e401bf65bd09f04687d8d1deaa6c740, type: 3}
   hot: {fileID: 21300000, guid: 0c2dc89931c4b784d9f1b9324b625957, type: 3}
   noisy: {fileID: 21300000, guid: f4bc245c31ce5b24db4c01c4a1555b58, type: 3}
   hotnoisy: {fileID: 21300000, guid: f276d4992b4f6ac459095a01a29295ba, type: 3}
   nothot_notnoisy: {fileID: 21300000, guid: 35c6c908fd4e5f6419153876c810d0de, type: 3}
+  ScriptObject: {fileID: 0}
 --- !u!1 &1458074486
 GameObject:
   m_ObjectHideFlags: 0
@@ -3826,7 +3944,7 @@ GameObject:
   - component: {fileID: 1529579588}
   m_Layer: 5
   m_Name: Door12
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3887,7 +4005,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1529579586}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1529579588}
+        m_MethodName: isDoorSafe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1529579586
@@ -3931,16 +4060,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1529579583}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9046d41442cd5fe4488cda03794b745a, type: 3}
+  m_Script: {fileID: 11500000, guid: 014479f16445e4c49bf691329ba2c35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textUI: {fileID: 0}
   safe: {fileID: 21300000, guid: 2ed1ac259dc301e42be7dd0f0bb9c403, type: 3}
   dead: {fileID: 21300000, guid: 8e401bf65bd09f04687d8d1deaa6c740, type: 3}
   hot: {fileID: 21300000, guid: 0c2dc89931c4b784d9f1b9324b625957, type: 3}
   noisy: {fileID: 21300000, guid: f4bc245c31ce5b24db4c01c4a1555b58, type: 3}
   hotnoisy: {fileID: 21300000, guid: f276d4992b4f6ac459095a01a29295ba, type: 3}
   nothot_notnoisy: {fileID: 21300000, guid: 35c6c908fd4e5f6419153876c810d0de, type: 3}
+  ScriptObject: {fileID: 0}
 --- !u!1 &1553946248
 GameObject:
   m_ObjectHideFlags: 0
@@ -4106,7 +4235,7 @@ GameObject:
   - component: {fileID: 1581163788}
   m_Layer: 5
   m_Name: Door16
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4167,7 +4296,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1581163786}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1581163788}
+        m_MethodName: isDoorSafe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1581163786
@@ -4211,16 +4351,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1581163783}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9046d41442cd5fe4488cda03794b745a, type: 3}
+  m_Script: {fileID: 11500000, guid: 014479f16445e4c49bf691329ba2c35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textUI: {fileID: 0}
   safe: {fileID: 21300000, guid: 2ed1ac259dc301e42be7dd0f0bb9c403, type: 3}
   dead: {fileID: 21300000, guid: 8e401bf65bd09f04687d8d1deaa6c740, type: 3}
   hot: {fileID: 21300000, guid: 0c2dc89931c4b784d9f1b9324b625957, type: 3}
   noisy: {fileID: 21300000, guid: f4bc245c31ce5b24db4c01c4a1555b58, type: 3}
   hotnoisy: {fileID: 21300000, guid: f276d4992b4f6ac459095a01a29295ba, type: 3}
   nothot_notnoisy: {fileID: 21300000, guid: 35c6c908fd4e5f6419153876c810d0de, type: 3}
+  ScriptObject: {fileID: 0}
 --- !u!1 &1755359714
 GameObject:
   m_ObjectHideFlags: 0
@@ -4235,7 +4375,7 @@ GameObject:
   - component: {fileID: 1755359719}
   m_Layer: 5
   m_Name: Door10
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4296,7 +4436,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1755359717}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1755359719}
+        m_MethodName: isDoorSafe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1755359717
@@ -4340,16 +4491,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1755359714}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9046d41442cd5fe4488cda03794b745a, type: 3}
+  m_Script: {fileID: 11500000, guid: 014479f16445e4c49bf691329ba2c35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textUI: {fileID: 0}
   safe: {fileID: 21300000, guid: 2ed1ac259dc301e42be7dd0f0bb9c403, type: 3}
   dead: {fileID: 21300000, guid: 8e401bf65bd09f04687d8d1deaa6c740, type: 3}
   hot: {fileID: 21300000, guid: 0c2dc89931c4b784d9f1b9324b625957, type: 3}
   noisy: {fileID: 21300000, guid: f4bc245c31ce5b24db4c01c4a1555b58, type: 3}
   hotnoisy: {fileID: 21300000, guid: f276d4992b4f6ac459095a01a29295ba, type: 3}
   nothot_notnoisy: {fileID: 21300000, guid: 35c6c908fd4e5f6419153876c810d0de, type: 3}
+  ScriptObject: {fileID: 0}
 --- !u!1 &1768589582
 GameObject:
   m_ObjectHideFlags: 0
@@ -4361,7 +4512,7 @@ GameObject:
   - component: {fileID: 1768589583}
   m_Layer: 0
   m_Name: Script Object
-  m_TagString: Untagged
+  m_TagString: Script Object
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4378,12 +4529,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   textUI: {fileID: 100424406}
-  safe: {fileID: 21300000, guid: 2ed1ac259dc301e42be7dd0f0bb9c403, type: 3}
-  dead: {fileID: 21300000, guid: 8e401bf65bd09f04687d8d1deaa6c740, type: 3}
-  hot: {fileID: 0}
-  noisy: {fileID: 0}
-  hotnoisy: {fileID: 0}
-  nothot_notnoisy: {fileID: 0}
+  percentages: []
+  Doors: {fileID: 0}
 --- !u!4 &1768589584
 Transform:
   m_ObjectHideFlags: 0
@@ -4482,7 +4629,7 @@ GameObject:
   - component: {fileID: 1888886204}
   m_Layer: 5
   m_Name: Door13
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4543,7 +4690,18 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1888886202}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1888886204}
+        m_MethodName: isDoorSafe
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
     m_TypeName: UnityEngine.UI.Button+ButtonClickedEvent, UnityEngine.UI, Version=1.0.0.0,
       Culture=neutral, PublicKeyToken=null
 --- !u!114 &1888886202
@@ -4587,16 +4745,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1888886199}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9046d41442cd5fe4488cda03794b745a, type: 3}
+  m_Script: {fileID: 11500000, guid: 014479f16445e4c49bf691329ba2c35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textUI: {fileID: 0}
   safe: {fileID: 21300000, guid: 2ed1ac259dc301e42be7dd0f0bb9c403, type: 3}
   dead: {fileID: 21300000, guid: 8e401bf65bd09f04687d8d1deaa6c740, type: 3}
   hot: {fileID: 21300000, guid: 0c2dc89931c4b784d9f1b9324b625957, type: 3}
   noisy: {fileID: 21300000, guid: f4bc245c31ce5b24db4c01c4a1555b58, type: 3}
   hotnoisy: {fileID: 21300000, guid: f276d4992b4f6ac459095a01a29295ba, type: 3}
   nothot_notnoisy: {fileID: 21300000, guid: 35c6c908fd4e5f6419153876c810d0de, type: 3}
+  ScriptObject: {fileID: 0}
 --- !u!1 &1957096882
 GameObject:
   m_ObjectHideFlags: 0
@@ -4611,7 +4769,7 @@ GameObject:
   - component: {fileID: 1957096887}
   m_Layer: 5
   m_Name: Door1
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4673,9 +4831,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: calculateProbabilities
-        m_Mode: 3
+      - m_Target: {fileID: 1957096887}
+        m_MethodName: isDoorSafe
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4727,16 +4885,16 @@ MonoBehaviour:
   m_GameObject: {fileID: 1957096882}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9046d41442cd5fe4488cda03794b745a, type: 3}
+  m_Script: {fileID: 11500000, guid: 014479f16445e4c49bf691329ba2c35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textUI: {fileID: 0}
   safe: {fileID: 21300000, guid: 2ed1ac259dc301e42be7dd0f0bb9c403, type: 3}
   dead: {fileID: 21300000, guid: 8e401bf65bd09f04687d8d1deaa6c740, type: 3}
   hot: {fileID: 21300000, guid: 0c2dc89931c4b784d9f1b9324b625957, type: 3}
   noisy: {fileID: 21300000, guid: f4bc245c31ce5b24db4c01c4a1555b58, type: 3}
   hotnoisy: {fileID: 21300000, guid: f276d4992b4f6ac459095a01a29295ba, type: 3}
   nothot_notnoisy: {fileID: 21300000, guid: 35c6c908fd4e5f6419153876c810d0de, type: 3}
+  ScriptObject: {fileID: 0}
 --- !u!1 &2002859937
 GameObject:
   m_ObjectHideFlags: 0
@@ -4870,7 +5028,7 @@ GameObject:
   - component: {fileID: 2063962686}
   m_Layer: 5
   m_Name: Door3
-  m_TagString: Untagged
+  m_TagString: Door
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4932,9 +5090,9 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
-        m_MethodName: calculateProbabilities
-        m_Mode: 3
+      - m_Target: {fileID: 2063962686}
+        m_MethodName: isDoorSafe
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
@@ -4986,13 +5144,13 @@ MonoBehaviour:
   m_GameObject: {fileID: 2063962681}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9046d41442cd5fe4488cda03794b745a, type: 3}
+  m_Script: {fileID: 11500000, guid: 014479f16445e4c49bf691329ba2c35a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  textUI: {fileID: 0}
   safe: {fileID: 21300000, guid: 2ed1ac259dc301e42be7dd0f0bb9c403, type: 3}
   dead: {fileID: 21300000, guid: 8e401bf65bd09f04687d8d1deaa6c740, type: 3}
   hot: {fileID: 21300000, guid: 0c2dc89931c4b784d9f1b9324b625957, type: 3}
   noisy: {fileID: 21300000, guid: f4bc245c31ce5b24db4c01c4a1555b58, type: 3}
   hotnoisy: {fileID: 21300000, guid: f276d4992b4f6ac459095a01a29295ba, type: 3}
   nothot_notnoisy: {fileID: 21300000, guid: 35c6c908fd4e5f6419153876c810d0de, type: 3}
+  ScriptObject: {fileID: 0}

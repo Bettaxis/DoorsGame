@@ -44,7 +44,7 @@ public class DoorScript : MonoBehaviour {
 
        probabilitiesScript = ScriptObject.GetComponent<TextFileReader>();
 
-        calculateProbabilities();
+       calculateProbabilities();
     }
 
     //Function to calculate which door is generated using
@@ -60,63 +60,64 @@ public class DoorScript : MonoBehaviour {
             Debug.Log("Probability " + probability);
        
 
-            if (chance <= probability)
+            if (chance > probability)
             {
                 if (i == (int)Doors.Hot_Noisy_Safe)
                 {
                     this.GetComponent<Image>().sprite = hotnoisy;
                     safeDoor = true;
+                    break;
                 }
 
                 else if (i == (int)Doors.Hot_Noisy_NotSafe)
                 {
                     this.GetComponent<Image>().sprite = hotnoisy;
                     safeDoor = false;
+                    break;
                 }
 
                 else if (i == (int)Doors.Hot_NotNoisy_Safe)
                 {
                     this.GetComponent<Image>().sprite = hot;
                     safeDoor = true;
+                    break;
                 }
 
                 else if (i == (int)Doors.Hot_NotNoisy_NotSafe)
                 {
-                    this.GetComponent<Image>().sprite = hotnoisy;
+                    this.GetComponent<Image>().sprite = hot;
                     safeDoor = false;
+                    break;
                 }
 
                 else if (i == (int)Doors.NotHot_Noisy_Safe)
                 {
                     this.GetComponent<Image>().sprite = noisy;
                     safeDoor = true;
+                    break;
                 }
 
                 else if (i == (int)Doors.NotHot_Noisy_NotSafe)
                 {
                     this.GetComponent<Image>().sprite = noisy;
                     safeDoor = false;
+                    break;
                 }
 
                 else if (i == (int)Doors.NotHot_NotNoisy_Safe)
                 {
                     this.GetComponent<Image>().sprite = nothot_notnoisy;
                     safeDoor = true;
+                    break;
                 }
 
                 else if (i == (int)Doors.NotHot_NotNoisy_NotSafe)
                 {
                     this.GetComponent<Image>().sprite = nothot_notnoisy;
                     safeDoor = false;
-                }
-
-                else
-                {
-                    this.GetComponent<Image>().sprite = nothot_notnoisy;
-                    safeDoor = false;
+                    break;
                 }
             }
-
         }
 
     //if (chance <= probability)
@@ -128,7 +129,7 @@ public class DoorScript : MonoBehaviour {
 
     //Debug.Log(dead);
     // Debug.Log(gameObject.GetComponent<Image>()); 
-    //this.GetComponent<Image>().sprite = dea   d;
+    //this.GetComponent<Image>().sprite = dead;
     }
 
     public void isDoorSafe()

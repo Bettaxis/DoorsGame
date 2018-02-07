@@ -40,6 +40,10 @@ public class TextFileReader : MonoBehaviour
 
 
     ////Function to open prompt a file dialog and output the text to a UI element
+
+    public GameObject Doors;
+    private DoorScript DoorScript;
+
     void Awake()
     {
         string path = EditorUtility.OpenFilePanel("Select Probability Text Location!", "", "txt");
@@ -54,8 +58,6 @@ public class TextFileReader : MonoBehaviour
 
             storeProbabilities(reader.ReadToEnd());
             reader.Close();
-
-            //calculateProbabilities();
         }
     }
 
@@ -75,7 +77,12 @@ public class TextFileReader : MonoBehaviour
             storeProbabilities(reader.ReadToEnd());
             reader.Close();
 
-            //calculateProbabilities();
+            for (int i = 1; i <= 20; i++)
+            {
+                Doors = GameObject.Find("Door" + i);
+                DoorScript = Doors.GetComponent<DoorScript>();
+                DoorScript.calculateProbabilities();
+            }
         }
     }
 
