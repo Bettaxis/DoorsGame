@@ -54,70 +54,83 @@ public class DoorScript : MonoBehaviour {
         float chance = UnityEngine.Random.value;
         Debug.Log("Chance " + chance);
 
+        for (int r = 0; i < 8; r++)
+        {
+            float[] ranges;
+
+            if (r == 0)
+            {
+                ranges[r] += percentages[r];
+                Debug.Log("Ranges " + i);
+            }
+
+            else
+                ranges[r] += percentages[r] + percentages[r - 1];
+        }
+
         for (int i = 0; i < 8; i++)
         {
             float probability = probabilitiesScript.percentages[i];
             Debug.Log("Probability " + probability);
        
 
-            if (chance > probability)
+       
+                if (i == (int)Doors.Hot_Noisy_Safe && (chance < ranges[i]))
+                {
+                    this.GetComponent<Image>().sprite = hotnoisy;
+                    safeDoor = true;
+                    break;
+                }
+
+                else if (i == (int)Doors.Hot_Noisy_NotSafe && (chance < ranges[i]))
+                {
+                    this.GetComponent<Image>().sprite = hotnoisy;
+                    safeDoor = false;
+                    break;
+                }
+
+                else if (i == (int)Doors.Hot_NotNoisy_Safe && (chance < ranges[i]))
+                {
+                    this.GetComponent<Image>().sprite = hot;
+                    safeDoor = true;
+                    break;
+                }
+
+                else if (i == (int)Doors.Hot_NotNoisy_NotSafe && (chance < ranges[i]))
             {
-                if (i == (int)Doors.Hot_Noisy_Safe)
-                {
-                    this.GetComponent<Image>().sprite = hotnoisy;
-                    safeDoor = true;
-                    break;
-                }
-
-                else if (i == (int)Doors.Hot_Noisy_NotSafe)
-                {
-                    this.GetComponent<Image>().sprite = hotnoisy;
-                    safeDoor = false;
-                    break;
-                }
-
-                else if (i == (int)Doors.Hot_NotNoisy_Safe)
-                {
-                    this.GetComponent<Image>().sprite = hot;
-                    safeDoor = true;
-                    break;
-                }
-
-                else if (i == (int)Doors.Hot_NotNoisy_NotSafe)
-                {
                     this.GetComponent<Image>().sprite = hot;
                     safeDoor = false;
                     break;
                 }
 
-                else if (i == (int)Doors.NotHot_Noisy_Safe)
-                {
+                else if (i == (int)Doors.NotHot_Noisy_Safe && (chance < ranges[i]))
+            {
                     this.GetComponent<Image>().sprite = noisy;
                     safeDoor = true;
                     break;
                 }
 
-                else if (i == (int)Doors.NotHot_Noisy_NotSafe)
-                {
+                else if (i == (int)Doors.NotHot_Noisy_NotSafe && (chance < ranges[i]))
+            {
                     this.GetComponent<Image>().sprite = noisy;
                     safeDoor = false;
                     break;
                 }
 
-                else if (i == (int)Doors.NotHot_NotNoisy_Safe)
-                {
+                else if (i == (int)Doors.NotHot_NotNoisy_Safe && (chance < ranges[i]))
+            {
                     this.GetComponent<Image>().sprite = nothot_notnoisy;
                     safeDoor = true;
                     break;
                 }
 
-                else if (i == (int)Doors.NotHot_NotNoisy_NotSafe)
-                {
+                else if (i == (int)Doors.NotHot_NotNoisy_NotSafe && (chance < ranges[i]))
+            {
                     this.GetComponent<Image>().sprite = nothot_notnoisy;
                     safeDoor = false;
                     break;
                 }
-            }
+            
         }
 
     //if (chance <= probability)
