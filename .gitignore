@@ -4,7 +4,7 @@
 [Bb]uild/
 [Bb]uilds/
 Assets/AssetStoreTools*
-Library/metadata/
+
 
 
 # Visual Studio 2015 cache directory
@@ -36,5 +36,3 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
-# Custom
-*.meta
